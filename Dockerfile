@@ -3,7 +3,6 @@
 #
 
 FROM centos:6.7
-MAINTAINER dbaskette@pivotal.io
 
 COPY * /tmp/
 RUN echo root:pivotal | chpasswd \
